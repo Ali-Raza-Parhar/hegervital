@@ -7,7 +7,7 @@ body {
   font-family: 'Montserrat';
 }
 .wrapper {
-  width: 1349px !important;
+  max-width: 1440px !important;
 }
 .big-heading {
   font-style: normal;
