@@ -538,8 +538,8 @@ body {
 .faq-open-icon {
   font-size: 24px;
   position: absolute;
-  top: 2px;
-  right: 16px;
+  top: 5px;
+  right: 18px;
   font-weight: 700;
   color: #131212;
 }
