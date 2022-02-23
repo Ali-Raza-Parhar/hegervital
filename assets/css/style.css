@@ -67,7 +67,7 @@ a:hover {
 }
 .hero-btn {
   width: 268px;
-  height: 54px;
+  height: 49px;
   background: #E83E3E;
   border-radius: 10px;
   outline: none;
@@ -88,7 +88,7 @@ a:hover {
 }
 .hero-bottom {
   position:absolute;
-  top: -20px;
+  top: -45px;
   --bs-gutter-x: 0rem !important;
   height: auto;
   background-color: #016855;  
@@ -146,8 +146,8 @@ a:hover {
 }
 .inovative-img {
   width: 85%;
-  height: auto;
-  object-fit: cover;
+  height: 520px;
+  /* object-fit: cover; */
 }
 .inovative-icon {
   width: 52px;
@@ -161,8 +161,8 @@ a:hover {
 }
 .old-couple-img {
   width: 100%;
-  height: 833px;
-  object-fit: fill;
+  height: 820px;
+  /* object-fit: fill; */
 }
 .section-3 h4{
   font-style: normal;
@@ -308,7 +308,7 @@ a:hover {
 }
 .section-7-img {
   width: 100%;
-  height: auto;
+  height: 480px;
 }
 .section-7-bullet h4{
   font-style: normal;
@@ -350,9 +350,9 @@ a:hover {
 
 /*---- Section-9 ----*/
 .section-9-img {
-  width: 100%;
-  height: auto;
-  object-fit: cover;
+  width: auto;
+  height: 385px;
+  /* object-fit: cover; */
 }
 .section-9-desc {
   font-style: normal;
