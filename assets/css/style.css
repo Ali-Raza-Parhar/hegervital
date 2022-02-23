@@ -88,7 +88,7 @@ a:hover {
 }
 .hero-bottom {
   position:absolute;
-  top: -45px;
+  top: -25px;
   --bs-gutter-x: 0rem !important;
   height: auto;
   background-color: #016855;  
@@ -111,11 +111,14 @@ a:hover {
 .hero-footer-prod {
   position: absolute;
   left: 0px;
-  top: -97px;
+  top: -124px;
 }
 .hero-footer-prod img {
-  width: 400px;
-  height: auto;
+	width: auto;
+	height: 354px;
+}
+.hero-item3 {
+  margin-left: -14px !important;
 }
 
 /*---- Styling Inovative-Section ----*/
@@ -150,8 +153,8 @@ a:hover {
   /* object-fit: cover; */
 }
 .inovative-icon {
-  width: 52px;
-  height: 52px;
+  width: auto;
+  height: auto;
   object-fit: cover;
 }
 
