@@ -385,3 +385,224 @@ body {
   line-height: 22px;
   color: #131212;
 }
+
+/*---- Section-12 ----*/
+.section-12-bg {
+  background: #F4F5F7;
+}
+.section-12-head {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #131212;
+}
+.section-12-sub-head {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  line-height: 29px;
+  text-align: center;
+  color: #131212;
+}
+
+/*---- Section-13 ----*/
+.section-13-bg {
+  background: linear-gradient(180deg, rgba(14, 170, 141, 0.78) 0%, #016855 100%);
+}
+.section-13 h2{
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.section-13 p {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+}
+.prod-box {
+  background: #FFFFFF;
+  border: 3px solid #131212;
+  box-sizing: border-box;
+  box-shadow: 0px 10px 50px rgba(1, 104, 85, 0.5);
+  border-radius: 10px;
+}
+.prod-box h4 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 118%;
+  text-align: center;
+  color: #131212;
+}
+.prod-box h5 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 118%;
+  text-align: center;
+  color: rgba(19, 18, 18, 0.7);
+}
+.product {
+  width: 167px;
+  height: 256px;
+  margin-top: -100px;
+  padding-right: 18px;
+}
+.hero-stars-sm {
+  font-style: normal;
+  font-weight: 400 !important;
+  font-size: 12px !important;
+  line-height: 24px !important;  
+  color: #000000;
+}
+.hero-payment-sm img{
+  padding: 0px 1px !important;
+}
+.product-hover:hover {
+  /* transform: scaleY(1.01); */
+  transition: all 0.4s;
+  border-color: red;
+}
+.product2 {
+  width: 308.56px !important;
+  height: 256px !important;
+}
+.product3 {
+  width: 367.29px !important;
+  height: 256px !important;
+}
+.product2-btn {
+  width: 156px;
+  padding: 5px 12px;
+  background: #3966CB;
+  border-radius: 27px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  color: #FFFFFF;
+}
+.dose2 {
+  color: red !important;
+  display: inline-block;
+  position: relative;
+}
+.dose2::before {
+  content: '';
+  position: absolute;
+  left: -0.1em;
+  right: -0.1em;
+  top: 0.38em;
+  bottom: 0.38em;
+  background: linear-gradient(to left top, transparent 45.5%, currentColor 47.5%, currentColor 52.5%, transparent 54.5%);
+  pointer-events: none;
+}
+.product3-btn {
+  background-color: #81B348 !important;
+  width: 242px !important;
+  color: #131212 !important;
+}
+.faq-head {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/*---- FAQ's ----*/
+.faq-card {
+  list-style: none;
+  position: relative;
+  cursor: pointer;
+}
+.faq-card summary {
+  background-color: #ffffff;
+  padding: 10px 18px;
+}
+.faq-question {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 29px;
+  color: #131212;
+}
+.faq-open-icon {
+  font-size: 24px;
+  position: absolute;
+  top: 2px;
+  right: 16px;
+  font-weight: 700;
+  color: #131212;
+}
+details[open] .faq-open-icon {
+  top: 18px;
+  right: 24px;
+}
+details > summary {
+  list-style: none;
+}
+details > summary::-webkit-details-marker {
+  display: none;
+}
+details[open] summary {
+  color: #131212;
+  font-weight: 500;
+}
+details[open] .faq-card-spoiler {
+  display: inline-block;
+  font-style: normal;
+  padding: 8px 18px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 22px;
+  color: #FFFFFF;
+}
+.faq-first {
+  border-radius: 10px 10px 0px 0px !important;
+}
+.faq-last {
+  border-radius: 0px 0px 10px 10px !important;
+}
+
+.footer-line {
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+.footer-nav a{
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+  color: #FFFFFF;
+  position: relative;
+  padding: 0px 18px;
+}
+.footer-nav a:hover {
+  color: #ffffff;
+  opacity: 0.9;
+  transition: opacity 0.2s;
+}
+.footer-nav a::after {
+  content:""; 
+  background: white; 
+  position: absolute; 
+  bottom: 0; 
+  bottom: 4px;
+  right: -2px; 
+  height: 60%; 
+  width: 1px;
+}
+.clear-last::after {
+  content: '' !important;
+  width: 0px !important;
+} 
