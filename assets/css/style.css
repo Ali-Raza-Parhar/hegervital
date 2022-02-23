@@ -380,6 +380,7 @@ a:hover {
 .modal-img {
   width: 100%;
   height: auto;
+  margin: auto auto;
 }
 .modal-border-none {
   border: none !important;
